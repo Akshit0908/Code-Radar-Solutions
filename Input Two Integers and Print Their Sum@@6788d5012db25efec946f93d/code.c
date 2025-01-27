@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    prinf("%d%d",a,b);
-    scanf("%d%d",&a&b);
-    printf("%d",a+b);
+    int a,b,sum=0;
+    printf("Enter the value of a: ");
+    scanf("%d",&a);
+    printf("Enter the value of b: ");
+    scanf("%d",&b);
+    sum =a+b;
+    printf("%d",sum);
+    
     return 0;
 }
