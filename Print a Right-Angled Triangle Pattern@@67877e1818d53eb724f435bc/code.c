@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main(){
     int a;
-    scanf("%d\n",&a);
-    for(i='*';i<=a;i++){
-    printf("%d",i);
+    scanf("%d",&a);
+    for(i=1;i<=a;i++){
+        for(j=1;j<=a;j++){
+            printf("*");
+        }
+        printf("\n");
     }
     return 0;
 }
