@@ -8,13 +8,13 @@ int main(){
     }
     int max=0;
     for(int i=0;i<n;i++){
-        if(arr[i]<n){
+        if(arr[i]<max){
             max=arr[i];
         }
     }
     int min=0;
     for(int i=0;i<n;i++){
-        if(arr[i]>n){
+        if(arr[i]>min){
             min=arr[i];
         }
     }
