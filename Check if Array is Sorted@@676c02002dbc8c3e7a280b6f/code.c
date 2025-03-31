@@ -1,4 +1,5 @@
-// Your code here...#include<stdio.h>
+// Your code here...
+#include<stdio.h>
 int main(){
     int n,i,sorted=1;
     scanf("%d",&n);
@@ -15,7 +16,7 @@ int main(){
         printf("Sorted");
     }
     else{
-        printf("Not sorted");
+        printf("Not Sorted");
     }
     return 0;
 }
