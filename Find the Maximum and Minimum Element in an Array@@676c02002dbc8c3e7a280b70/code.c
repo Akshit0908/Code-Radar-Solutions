@@ -8,7 +8,7 @@ int main(){
     }
     int max=1000;
     for(int i=0;i<n;i++){
-        if(arr[n]>max){
+        if(arr[i]>max){
             max=arr[i];
         }
     }
