@@ -12,7 +12,7 @@ int main(){
             max=arr[i];
         }
     }
-    int min=0;
+    int min=100;
     for(int i=0;i<n;i++){
         if(arr[i]<min){
             min=arr[i];
